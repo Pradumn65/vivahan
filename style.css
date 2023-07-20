@@ -69,9 +69,7 @@ ul{
    color: var(--primary-text-color);
    transition: 0.2 ease-out; 
 }
-.hover-links:hover{
-    color: var(--accent-color);
-}
+///
 
 .primary-button{
     background-color: var(--accent-color);
@@ -143,6 +141,13 @@ position: relative;
 .nav-toggle{
     display: none;
 }
+.phone-call{
+    display: none;
+}
+.call-toggle{
+flex-direction: row-reverse;
+
+}
 
 /* header-section */
 header{
@@ -173,9 +178,9 @@ padding: 50px var(--padding-inline-section) 0;
 
 /* company header */
 
-.company-header{
+/* .company-header{
 
-}
+} */
 
 .small-text{
     text-align: center;
@@ -269,7 +274,7 @@ margin-top: 20px;
     position: relative;
     height: 300px;
     background: black;
-    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(./assets/asset\ 35.jpeg);
+    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(https://images.unsplash.com/photo-1623952146070-f13fc902f769?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2VkYXJuYXRofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     transition: 0.2 ease-out;
 }
@@ -277,7 +282,15 @@ margin-top: 20px;
     box-shadow: 0 0 10px #888;
 }
 .example-card:nth-child(2){
-    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(./assets/asset\ 36.jpeg);
+    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycG9ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;  
+}
+.example-card:nth-child(3){
+    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(https://images.unsplash.com/photo-1617018681623-987895ca1c99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRvdXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;  
+}
+.example-card:nth-child(4){
+    background:linear-gradient( rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(https://images.unsplash.com/photo-1530065928592-fb0dc85d2f27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJvYWQlMjB0cmlwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;  
 }
 
@@ -342,6 +355,26 @@ margin-top: 20px;
     gap: 30px;
     flex-wrap: wrap;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
