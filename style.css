@@ -69,7 +69,9 @@ ul{
    color: var(--primary-text-color);
    transition: 0.2 ease-out; 
 }
-///
+.hover-links:hover{
+    color: var(--accent-color-dark);
+}
 
 .primary-button{
     background-color: var(--accent-color);
